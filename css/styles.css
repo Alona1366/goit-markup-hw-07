@@ -1,33 +1,33 @@
-:root {
+/* :root {
     --primary-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
     --secondary-color: #ffffff;
     --primary-color: #212121;
     --accent-color: #2196F3;
 
-    /* others */
+    others
     --indent: 30px;
     --items: 3;
     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
+} */
 
-.link {
+/* .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
-}
+} */
 
-body {
+/* body {
     font-family: var(--primary-font-family);
-}
+} */
 
-.no-scroll {
+/* .no-scroll {
     overflow: hidden;
-}
+} */
 /* ============= PARTIAL RESET OF STYLES START ============= */
-a {
+/* a {
     text-decoration: none;
     color: currentColor;
 }
@@ -50,9 +50,9 @@ ol {
     list-style: none;
     padding: 0;
     margin: 0;
-}
+} */
 
-.visuaaly-hidden {
+/* .visuaaly-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -63,13 +63,13 @@ ol {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
 
 /* ============= /PARTIAL RESET OF STYLES END ============= */
 
 /* ============= CARD SET ============= */
 
- .card {
+ /* .card {
      display: flex;
      flex-wrap: wrap;
      gap: var(--indent);
@@ -77,23 +77,23 @@ ol {
 
  .card__item {
      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
- }
+ } */
 
 /* ============= /CARD SET ============= */
 
 /* ============= COMPONENTS ============= */
 
-.container {
+/* .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} */
 
-.section {
+/* .section {
     margin-left: auto;
     margin-right: auto;
-}
-.btn {
+} */
+/* .btn {
     max-width: 400px;
     min-width: 200px;
     min-height: 50px;
@@ -121,9 +121,9 @@ ol {
 .btn:focus {
     background-color: var(--secondary-color);
     color: var(--accent-color);
-}
+} */
 
-.title {
+/* .title {
     margin-bottom: 50px;
 
     font-family: var(--primary-font-family);
@@ -133,33 +133,33 @@ ol {
     letter-spacing: 0.05em;
     text-align: center;
     color: var(--primary-color);
-}
+} */
 
 /* ============= /COMPONENTS ============= */
 
 /* ============= HEADER ============= */
-.header__conteiner {
+/* .header__conteiner {
 display: flex;
 align-items: center;
-}
+} */
 
-.navigation__conteiner {
+/* .navigation__conteiner {
 margin-right: auto;
 }
 
 .navigation__list {
     display: flex;
     gap: 50px;
- }
+ } */
 
-.navigation {
+/* .navigation {
     display: flex;
     align-items: center;
-}
+} */
 
-.logo {
-    display: block;
-    margin-right: 93px;
+/* .logo {
+display: block;
+margin-right: 93px;
 
 font-family: var(--secondary-font-family) ;
 font-weight: 700;
@@ -172,14 +172,12 @@ text-decoration: none;
 
 .logo-dark {
     color: var(--primary-color);
-}
+} */
 
-.navigation__link, .mail__link, .phone__number {
+/* .navigation__link {
     padding-top: 32px;
     padding-bottom: 32px;
-}
 
-.navigation__link {
     position: relative;
     display: block;
 
@@ -210,14 +208,17 @@ text-decoration: none;
 
     border-radius: 2px;
     background-color: var(--accent-color);
-}
+} */
 
-.contacts {
+/* .contacts {
     display: flex;
     gap: 50px;
-}
+} */
 
-.mail__link {
+/* .mail__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     display: flex;
     align-items: center;
     
@@ -239,6 +240,9 @@ text-decoration: none;
    } 
 
 .phone__number {
+padding-top: 32px;
+padding-bottom: 32px;
+
 display: flex;
 align-items: center;
 
@@ -272,12 +276,12 @@ transition: color var(--animation);
 .mail__link:hover,
 .mail__link:focus {
     color: var(--accent-color);
-}
+} */
 /* ============= /HEADER ============= */
 
 /* ============= HERO ============= */
 
-.hero {
+/* .hero {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -309,13 +313,13 @@ transition: color var(--animation);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-color)
-}
+} */
 
 /* ============= /HERO ============= */
 
 /* ============= BENEFITS ============= */
 
-.benefits {
+/* .benefits {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -372,12 +376,12 @@ color: var(--primary-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-}
+} */
 
 /* ============= /BENEFITS ============= */
 
 /* ============= WHAT WE DO ============= */
-.proposals {
+/* .proposals {
     display: flex;
     padding-bottom: 94px;
 }
@@ -411,12 +415,12 @@ color: var(--primary-color);
     text-transform: uppercase;
 
     color: var(--secondary-color);
-}
+} */
 
 /* ============= /WHAT WE DO ============= */
 
 /* ============= TEAM ============= */
-.team {
+/* .team {
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -463,13 +467,13 @@ color: var(--primary-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-}
+} */
 
 /* ============= /TEAM ============= */
 
 /* ============= FOOTER ============= */
 
-.footer {
+/* .footer {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -545,11 +549,11 @@ color: var(--primary-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color);
-}
+} */
 
 /* ============= SOCIAL ICONS FOOTER ============= */
 
-.footer__social {
+/* .footer__social {
     margin-right: 93px;
 }
 
@@ -582,13 +586,13 @@ color: var(--primary-color);
 
 .footer__social-icon {
     fill: currentColor;
-}
+} */
 
 /* ============= /SOCIAL ICONS FOOTER ============= */
 
 /* ============= SUBMIT FORM FOOTER ============= */
 
-.footer__submit {
+/* .footer__submit {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -654,7 +658,7 @@ color: var(--primary-color);
 
 .footer__button-icon {
     fill: var(--secondary-color);
-}
+} */
 
 /* ============= /SUBMIT FORM FOOTER ============= */
 
@@ -662,14 +666,14 @@ color: var(--primary-color);
 
 
 /* ============= PORTFOLIO HEADER ============= */
-.header {
+/* .header {
     border-bottom: 1px solid #ECECEC;;
-}
+} */
 /* ============= /PORTFOLIO HEADER ============= */
 
 /* ============= TABS ============= */
 
-.tabs {
+/* .tabs {
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -727,13 +731,13 @@ border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* ============= /TABS ============= */
 
 /* ============= PORTFOLIO ============= */
 
-.portfolio {
+/* .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -825,13 +829,13 @@ border: none;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-}
+} */
 
 /* ============= /PORTFOLIO ============= */
 
 /* ============= SOCIAL ICONS ============= */
 
-.socials {
+/* .socials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -860,11 +864,11 @@ border: none;
 
 .socials__icon {
     fill: currentColor;
-}
+} */
 /* ============= /SOCIAL ICONS ============= */
 
 /* ============= CLIENTS ============= */
-.clients {
+/* .clients {
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -901,13 +905,13 @@ border: none;
 
 .clients__icon {
 fill: currentColor;
-}
+} */
 
 /* ============= /CLIENTS ============= */
 
 /* ============= MODAL WINDOW ============= */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -923,15 +927,15 @@ fill: currentColor;
     pointer-events: initial;
 
     transition: opacity 600ms ease-out, visibility 600ms ease-out;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
-.modal {
+/* .modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -946,9 +950,9 @@ fill: currentColor;
     opacity: 1;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
+} */
 
-.modal__btn-close {
+/* .modal__btn-close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -964,18 +968,18 @@ fill: currentColor;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
     cursor: pointer;    
-}
+} */
 
-.modal__btn-icon:hover {
+/* .modal__btn-icon:hover {
     fill: var(--accent-color); 
     transition: fill var(--animation);
-}
+} */
 
 /* ============= /MODAL WINDOW ============= */
 
 /* ============= MODAL FORM ============= */
 
-.modal__form {
+/* .modal__form {
     text-align: center;
 }
 
@@ -1146,5 +1150,5 @@ fill: currentColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     transition: background var(--animation), box-shadow var(--animation);
-}
+} */
 /* ============= /MODAL FORM ============= */
