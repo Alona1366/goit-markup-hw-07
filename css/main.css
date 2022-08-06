@@ -386,6 +386,9 @@ ol {
 }
 
 .header__conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,6 +398,8 @@ ol {
 }
 
 .header {
+  margin-left: auto;
+  margin-right: auto;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -553,8 +558,16 @@ ol {
 }
 
 .benefits {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.benefits__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .benefits__place {
@@ -617,10 +630,18 @@ ol {
 }
 
 .proposals {
+  margin-left: auto;
+  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 94px;
+}
+
+.proposals__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .proposals__photo {
@@ -657,9 +678,17 @@ ol {
 }
 
 .team {
+  margin-left: auto;
+  margin-right: auto;
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.team-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .team__list {
@@ -706,12 +735,17 @@ ol {
 }
 
 .footer {
+  margin-left: auto;
+  margin-right: auto;
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -966,8 +1000,16 @@ ol {
 }
 
 .portfolio {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.portfolio__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .portfolio__card-item {
@@ -1100,11 +1142,19 @@ ol {
 }
 
 .clients {
+  margin-left: auto;
+  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.clients__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .clients__list {
