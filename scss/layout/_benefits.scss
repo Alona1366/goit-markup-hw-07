@@ -1,6 +1,12 @@
 .benefits {
+    @include section;
+
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.benefits__container {
+    @include container;
 }
 
 .benefits__place {
