@@ -1,6 +1,12 @@
 .proposals {
+    @include section;
+
     display: flex;
     padding-bottom: 94px;
+}
+
+.proposals__container {
+    @include container;
 }
 
 .proposals__photo {
