@@ -1,7 +1,13 @@
 .team {
+    @include section;
+
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.team-container {
+    @include container;
 }
 
 .team__list {
