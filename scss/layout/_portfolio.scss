@@ -59,16 +59,20 @@
 }
 
 .portfolio {
+    @include section;
+
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.portfolio__container {
+    @include container;
 }
 
 .portfolio__card-item {
     cursor: pointer;
 
 }
-
-
 
 .portfolio__overlay {
     display: flex;
@@ -153,4 +157,3 @@
     letter-spacing: 0.03em;
     color: #757575;
 }
-
