@@ -1,7 +1,13 @@
 .clients {
+    @include section;
+
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.clients__container {
+    @include container;
 }
 
 .clients__list {
